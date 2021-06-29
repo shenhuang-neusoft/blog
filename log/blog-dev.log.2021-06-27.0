@@ -1,0 +1,95 @@
+2021-06-27 00:00:27.601  INFO 11012 --- [restartedMain] com.example.blog.BlogApplication         : Starting BlogApplication using Java 1.8.0_144 on DESKTOP-V7V3JLV with PID 11012 (D:\blog\target\classes started by MAC in D:\blog)
+2021-06-27 00:00:27.627 DEBUG 11012 --- [restartedMain] com.example.blog.BlogApplication         : Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-06-27 00:00:27.628  INFO 11012 --- [restartedMain] com.example.blog.BlogApplication         : The following profiles are active: dev
+2021-06-27 00:00:27.752  INFO 11012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-06-27 00:00:27.753  INFO 11012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-06-27 00:00:29.174  INFO 11012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-06-27 00:00:29.280  INFO 11012 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 94 ms. Found 5 JPA repository interfaces.
+2021-06-27 00:00:30.541  INFO 11012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-06-27 00:00:30.554  INFO 11012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-06-27 00:00:30.555  INFO 11012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-06-27 00:00:30.558  INFO 11012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2021-06-27 00:00:30.559  INFO 11012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2021-06-27 00:00:30.559  INFO 11012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2021-06-27 00:00:30.565  INFO 11012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2021-06-27 00:00:30.735  INFO 11012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-06-27 00:00:30.736  INFO 11012 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2967 ms
+2021-06-27 00:00:31.004  INFO 11012 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-06-27 00:00:31.057  INFO 11012 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-06-27 00:00:31.203  INFO 11012 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-06-27 00:00:31.396  INFO 11012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-06-27 00:00:31.592  INFO 11012 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-06-27 00:00:31.615  INFO 11012 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-06-27 00:00:32.795  INFO 11012 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-06-27 00:00:32.809  INFO 11012 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-06-27 00:00:32.941  INFO 11012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-06-27 00:00:34.306  WARN 11012 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-06-27 00:00:34.608  INFO 11012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-06-27 00:00:35.036  INFO 11012 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-06-27 00:00:35.683  INFO 11012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-06-27 00:00:35.694  INFO 11012 --- [restartedMain] com.example.blog.BlogApplication         : Started BlogApplication in 9.201 seconds (JVM running for 10.799)
+2021-06-27 00:01:20.882  INFO 11012 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-06-27 00:01:20.882  INFO 11012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-06-27 00:01:20.885  INFO 11012 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-06-27 00:01:20.931  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='/', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2021-06-27 00:01:20.931  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:21.096  WARN 11012 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-06-27 00:01:21.114  WARN 11012 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-06-27 00:01:21.122  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : index
+2021-06-27 00:01:21.122  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:22.259  INFO 11012 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : Request : {url='/footer/newblog', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.newblogs', args=[{}]}
+2021-06-27 00:01:22.259  INFO 11012 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:22.272  INFO 11012 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : Result : _fragments :: newblogList
+2021-06-27 00:01:22.272  INFO 11012 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:28.728  INFO 11012 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Request : {url='/types/1', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 1, {}]}
+2021-06-27 00:01:28.729  INFO 11012 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:28.760  INFO 11012 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Result : types
+2021-06-27 00:01:28.760  INFO 11012 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:29.515  INFO 11012 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Request : {url='/footer/newblog', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.newblogs', args=[{}]}
+2021-06-27 00:01:29.516  INFO 11012 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:29.531  INFO 11012 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Result : _fragments :: newblogList
+2021-06-27 00:01:29.531  INFO 11012 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:39.333  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='/types/2', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2021-06-27 00:01:39.334  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:39.350  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : types
+2021-06-27 00:01:39.350  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:40.108  INFO 11012 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Request : {url='/footer/newblog', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.newblogs', args=[{}]}
+2021-06-27 00:01:40.109  INFO 11012 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:40.120  INFO 11012 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : Result : _fragments :: newblogList
+2021-06-27 00:01:40.120  INFO 11012 --- [http-nio-8080-exec-7] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:47.047  INFO 11012 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Request : {url='/blog/35', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.blog', args=[35, {}]}
+2021-06-27 00:01:47.048  INFO 11012 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:47.209  INFO 11012 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Result : blog
+2021-06-27 00:01:47.209  INFO 11012 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:48.080  INFO 11012 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Request : {url='/footer/newblog', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.newblogs', args=[{}]}
+2021-06-27 00:01:48.080  INFO 11012 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:48.091  INFO 11012 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : Result : _fragments :: newblogList
+2021-06-27 00:01:48.091  INFO 11012 --- [http-nio-8080-exec-2] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:48.233  INFO 11012 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Request : {url='/comments/35', ip='127.0.0.1', classMethod='com.example.blog.web.CommentController.comments', args=[35, {}]}
+2021-06-27 00:01:48.233  INFO 11012 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:48.328  INFO 11012 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : Result : blog :: commentList
+2021-06-27 00:01:48.328  INFO 11012 --- [http-nio-8080-exec-9] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:53.367  INFO 11012 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Request : {url='/types/2', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 2, {}]}
+2021-06-27 00:01:53.368  INFO 11012 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:53.379  INFO 11012 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : Result : types
+2021-06-27 00:01:53.379  INFO 11012 --- [http-nio-8080-exec-10] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:53.960  INFO 11012 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Request : {url='/footer/newblog', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.newblogs', args=[{}]}
+2021-06-27 00:01:53.961  INFO 11012 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:53.988  INFO 11012 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : Result : _fragments :: newblogList
+2021-06-27 00:01:53.989  INFO 11012 --- [http-nio-8080-exec-4] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:58.361  INFO 11012 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : Request : {url='/types/3', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 3, {}]}
+2021-06-27 00:01:58.362  INFO 11012 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:58.382  INFO 11012 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : Result : types
+2021-06-27 00:01:58.382  INFO 11012 --- [http-nio-8080-exec-6] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:01:58.928  INFO 11012 --- [http-nio-8080-exec-3] com.example.blog.aspect.LogAspect        : Request : {url='/footer/newblog', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.newblogs', args=[{}]}
+2021-06-27 00:01:58.928  INFO 11012 --- [http-nio-8080-exec-3] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:01:58.942  INFO 11012 --- [http-nio-8080-exec-3] com.example.blog.aspect.LogAspect        : Result : _fragments :: newblogList
+2021-06-27 00:01:58.942  INFO 11012 --- [http-nio-8080-exec-3] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:02:08.593  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Request : {url='/types/4', ip='127.0.0.1', classMethod='com.example.blog.web.TypeShowController.types', args=[Page request [number: 0, size 8, sort: updateTime: DESC], 4, {}]}
+2021-06-27 00:02:08.594  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:02:08.613  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : Result : types
+2021-06-27 00:02:08.613  INFO 11012 --- [http-nio-8080-exec-1] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
+2021-06-27 00:02:09.098  INFO 11012 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : Request : {url='/footer/newblog', ip='127.0.0.1', classMethod='com.example.blog.web.IndexController.newblogs', args=[{}]}
+2021-06-27 00:02:09.098  INFO 11012 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : --------------doBefore------------
+2021-06-27 00:02:09.112  INFO 11012 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : Result : _fragments :: newblogList
+2021-06-27 00:02:09.112  INFO 11012 --- [http-nio-8080-exec-5] com.example.blog.aspect.LogAspect        : -------------doAfter-------------
