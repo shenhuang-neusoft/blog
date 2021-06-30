@@ -7,8 +7,8 @@
 
     <link rel="stylesheet" href="../static/css/typo.css">
     <link rel="stylesheet" href="../static/css/animate.css">
-    <link rel="stylesheet" href="../static/lib/editormd/prism/prism.css">
-    <link rel="stylesheet" href="../static/lib/editormd/tocbot/tocbot.css">
+    <link rel="stylesheet" href="../static/lib/prism/prism.css">
+    <link rel="stylesheet" href="../static/lib/tocbot/tocbot.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
     <link rel="stylesheet" href="../static/css/me.css">
 </head>
@@ -65,7 +65,7 @@
             </div>
             <h2 class="ui center aligned header" th:text="${blog.title}">我的学习之路！！！！</h2>
             <br>
-            <div id="content"class="m-padded-lr-responsive m-padded-tb-large" th:utext="${blog.content}">
+            <div id="content"class="typo typo-selection js-toc-content m-padded-lr-responsive m-padded-tb-large" th:utext="${blog.content}">
                 <p>Spring Boot 项目实战视频课程，带你从零开始，一步一步的完成一个小而美的个人博客产品，通过学习能让你掌握完整的全栈开发套路，开发前端 UI 的小套路，还会 get 到很多小技能哦.......</p>
                 <h2>1</h2>
                 <p>Spring Boot 项目实战视频课程，带你从零开始，一步一步的完成一个小而美的个人博客产品，通过学习能让你掌握完整的全栈开发套路，开发前端 UI 的小套路，还会 get 到很多小技能哦.......</p>
@@ -263,7 +263,7 @@
     </div>
 </div>
 
-<div class="m-padded m-fixed m-right-bottom">
+<div id="toolbar" class="m-padded m-fixed m-right-bottom">
 <div class="ui vertical icon buttons">
     <button type="button" class="ui toc teal button">目录</button>
     <a href="#comment-container" class="ui teal button">留言</a>
